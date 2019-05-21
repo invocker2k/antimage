@@ -1,0 +1,100 @@
+.tong_main{
+	width: 100%;
+	margin-top: 80px;	
+
+}
+.giua{
+	width: 80%;
+	margin: auto;
+	top: 100px;
+}
+div.trang_chu_1{
+	width: 100%;
+	height: 30px;
+	background: #fff;
+	margin: auto;
+}
+div.trang_chu_2{
+	width: 100%;
+	height: 88px;
+	background: #F5F5F5;
+	margin: auto;
+}
+div.phan_trang{
+	width: 100%;
+	height: 50px;
+	margin-top: 0px;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 20px;
+}
+.trang_chu_3{
+	width: 100%;
+	margin-bottom: 50px;
+	background: #F5F5F5;
+}
+.input{
+	width: 400px;
+	height: 30px;
+	border-radius: 5px;
+}
+.button{
+    width: 105px;
+    height: 35px;
+    color: #fff;
+    padding-left: 25px;
+    font-weight: bold;
+    font-size: 12px!important;
+    background-position: left;
+    border-radius: 5px;
+    text-align: left!important;
+    text-align: center;
+}
+.sua{
+    border-radius: 0;
+    border: 1px solid #36ace1;
+    color: #36ace1;
+    font-size: 15px;
+    padding: 6px;
+    font-weight: 700;
+    margin-left: 2px;
+    width: 100px;
+    margin-bottom: 4px;
+}
+.xoa{
+    border-radius: 0;
+    border: 1px solid #36ace1;
+    color: #36ace1;
+    font-size: 15px;
+    padding: 6px;
+    font-weight: 600;
+    margin-left: 10px;
+    width: 100px;
+    margin-bottom: 4px;
+}
+.tong{
+	width: 100%;
+	height: 100%;
+}
+.tong_1{
+	width: 105px;
+	float: left;
+	position: relative;
+	margin-top: 10px;
+	margin-left: 5px;
+}
+.tieu_de_tinnn{
+	min-height: 90px;
+	width: calc(90% - 90px);
+    padding-left: 10px;
+    float: left;
+    position: relative;
+    margin-top: 18px;
+}
+.ma{
+	width: 100px;
+	height: 20px;
+	float: right;
+}
+.aaa{
+	color: #11B5ED;
+}

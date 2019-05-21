@@ -1,0 +1,92 @@
+.luu_tong{
+	width: 100%;
+	margin-top: 54px;
+}
+.luu_tong_1{
+	width: 80%;
+	height: 100%;
+	margin: auto;
+}
+.lulu_1{
+	width: 100%;
+	height: 150px;
+	margin-top: 20px;
+}
+.line {
+    height: 1px;
+    background: #e6e6e6;
+    margin: 24px 0;
+    clear: both;
+}
+.lulu_anh{
+	width: 15%;
+	height: 100%;
+	float: left;
+	background: #4CD42A;
+}
+.lulu_de{
+	width: 917px;
+	height: 30px;
+	float: left;
+}
+.lulu_gia{
+	width: 200px;
+	height: 30px;
+	float: left;
+	margin-top: 5px;
+}
+.lulu_dia_chi{
+	width: 917px;
+	height: 30px;
+	float: left;
+	margin-top: 15px;
+}
+.thong_tinn{
+	width: 917px;
+	height: 18px;
+	float: left;
+	margin-top: 22px;
+}
+.anh_nguoi_dang{
+	width: 18px;
+	height: 100%;
+	margin-left: 20px;
+	float: left;
+}
+.ten_nguoi{
+	width: 105px;
+	height: 100%;
+	float: left;
+	font-size: 14px;
+	border-right: 1px solid #eee;
+}
+.delimeter {
+    border-left: 1px solid rgba(0,0,0,0.2);
+    margin-left: 5px;
+    padding-right: 7px;
+}
+.phone{
+	width: 100px;
+	height: 100%;
+	float: left;
+	margin-left: 10px;
+	font-size: 14px;
+}
+.bo_luu{
+	width: 100px;
+	height: 200%;
+	float: right;
+	border-radius: 4px;
+}
+.bo{
+	border-radius: 0;
+    border: 1px solid #36ace1;
+    color: #36ace1;
+    font-size: 15px;
+    padding: 10px 10px;
+    font-weight: 900;
+    margin-left: 2px;
+    width: 200px;
+    margin-bottom: 4px;
+    color: #98E31B;
+}

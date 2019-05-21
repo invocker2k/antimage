@@ -1,0 +1,241 @@
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    padding: 30px; 
+    font-family: "Helvetica Neue", helvetica, arial; 
+    background: url('https://subtlepatterns.com/patterns/white_carbonfiber.png');
+  }
+
+  #container {
+    position: relative; 
+  }
+
+  #container:after {
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+  }
+
+  #menu {
+    position: relative;
+    float: left;
+    width: 100%;
+    padding: 0 20px;
+    border-radius: 3px;
+    box-shadow: inset 0 1px 1px rgba(255,255,255,.5), inset 0 -1px 0 rgba(0,0,0,.15), 0 1px 3px rgba(0,0,0,.15);
+    background: #ccc; 
+  }
+
+  #menu, #menu ul {
+    list-style: none;
+  }
+
+  #menu > li {
+    float: left;
+    position: relative;
+    border-right: 1px solid rgba(0,0,0,.1);
+    box-shadow: 1px 0 0 rgba(255,255,255,.25);
+    perspective: 1000px;
+    
+  }
+
+  #menu > li:first-child {
+    border-left: 1px solid rgba(255,255,255,.25);
+    box-shadow: -1px 0 0 rgba(0,0,0,.1), 1px 0 0 rgba(255,255,255,.25);
+  }
+
+  #menu a {
+    display: block;
+    position: relative;
+    z-index: 10;
+    padding: 13px 20px 13px 20px;
+    text-decoration: none;
+    color: rgba(75,75,75,1);
+    line-height: 1;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: -.05em;
+    background: transparent;    
+    text-shadow: 0 1px 1px rgba(255,255,255,.9);
+    transition: all .25s ease-in-out;
+  
+  }
+
+  #menu > li:hover > a {
+    background: #333;
+    color: rgba(0,223,252,1);
+    text-shadow: none;
+  }
+
+  #menu li ul  {
+    position: absolute;
+    left: 0;
+    z-index: 1;
+    width: 200px;
+    padding: 0;
+    opacity: 0;
+    visibility: hidden;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    background: transparent;
+    overflow: hidden;
+    transform-origin: 50% 0%;
+  }
+
+
+  #menu li:hover ul {
+    
+    padding: 15px 0;
+    background: #333;
+    opacity: 1;
+    visibility: visible;
+    box-shadow: 1px 1px 7px rgba(0,0,0,.5);
+    animation-name: swingdown;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+
+  }
+
+  @keyframes swingdown {
+    0% {
+      opacity: .99999;
+      transform: rotateX(90deg);
+    }
+
+    30% {     
+      transform: rotateX(-20deg) rotateY(5deg);
+      animation-timing-function: ease-in-out;
+    }
+
+    65% {
+      transform: rotateX(20deg) rotateY(-3deg);
+      animation-timing-function: ease-in-out;
+    }
+
+    100% {
+      transform: rotateX(0);
+      animation-timing-function: ease-in-out;
+    }
+  }
+
+  #menu li li a {
+    padding-left: 15px;
+    font-weight: 400;
+    color: #ddd;
+    text-shadow: none;
+    border-top: dotted 1px transparent;
+    border-bottom: dotted 1px transparent;
+    transition: all .15s linear;
+  }
+
+  #menu li li a:hover {
+    color: rgba(0,223,252,1);
+    border-top: dotted 1px rgba(255,255,255,.15);
+    border-bottom: dotted 1px rgba(255,255,255,.15);
+    background: rgba(0,223,252,.02);
+  }
+  .tong_main{
+  width: 100%;
+  margin-top: 80px; 
+
+}
+.giua{
+  width: 80%;
+  margin: auto;
+  top: 100px;
+}
+div.trang_chu_1{
+  width: 100%;
+  height: 30px;
+  background: #fff;
+  margin: auto;
+}
+div.trang_chu_2{
+  width: 100%;
+  height: 88px;
+  background: #F5F5F5;
+  margin: auto;
+}
+div.phan_trang{
+  width: 100%;
+  height: 50px;
+  margin-top: 0px;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+.trang_chu_3{
+  width: 100%;
+  margin-bottom: 50px;
+  background: #F5F5F5;
+}
+.input{
+  width: 400px;
+  height: 30px;
+  border-radius: 5px;
+}
+.button{
+    width: 105px;
+    height: 35px;
+    color: #fff;
+    padding-left: 25px;
+    font-weight: bold;
+    font-size: 12px!important;
+    background-position: left;
+    border-radius: 5px;
+    text-align: left!important;
+    text-align: center;
+}
+.sua{
+    border-radius: 0;
+    border: 1px solid #36ace1;
+    color: #36ace1;
+    font-size: 15px;
+    padding: 6px;
+    font-weight: 700;
+    margin-left: 2px;
+    width: 100px;
+    margin-bottom: 4px;
+}
+.xoa{
+    border-radius: 0;
+    border: 1px solid #36ace1;
+    color: #36ace1;
+    font-size: 15px;
+    padding: 6px;
+    font-weight: 600;
+    margin-left: 10px;
+    width: 100px;
+    margin-bottom: 4px;
+}
+.tong{
+  width: 100%;
+  height: 100%;
+}
+.tong_1{
+  width: 105px;
+  float: left;
+  position: relative;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+.tieu_de_tinnn{
+  min-height: 90px;
+  width: calc(90% - 90px);
+    padding-left: 10px;
+    float: left;
+    position: relative;
+    margin-top: 18px;
+}
+.ma{
+  width: 100px;
+  height: 20px;
+  float: right;
+}
+.aaa{
+  color: #11B5ED;
+}

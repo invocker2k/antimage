@@ -1,0 +1,114 @@
+div.page_wrapper{
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    z-index: 1009;
+    background: #FFF;
+    border-bottom: 1px solid #e4e4e4;
+}
+header .container-content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+header .container-content .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 3px;
+    height: 44px;
+}
+.wrapper.full {
+    max-width: none;
+}
+header .container-content .wrapper .logo {
+    position: relative;
+    z-index: 999;
+    width: 50px;
+    padding: 0 5px;
+    text-align: center;
+}
+header .container-content .wrapper .logo img {
+    width: 100%;
+}
+header .container-content .wrapper .box-search {
+    text-align: left;
+    flex-grow: 1;
+    width: 40%;
+}
+header .container-content .wrapper .box-search #top-search {
+    display: block;
+    position: relative;
+    z-index: 3;
+    max-width: 500px;
+    margin-left: 15px;
+}
+header .container-content .wrapper .box-search #top-search .search-form_label {
+    width: 100%;
+    display: block;
+    padding: 1px 5px 1px 0px;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    position: relative;
+}
+.search-form_input{
+	width: 470px;
+	height: 31px;
+	border: 0;
+	font-size: 15px;
+	background: transparent;
+	color: #000000;
+}
+.fa-search{
+    border: 0;
+}
+header .container-content .wrapper .box-user {
+    position: relative;
+    right: 0;
+    text-align: center;
+    max-width: 480px;
+    display: flex;
+    align-items: center;
+    height: 35px;
+    width: 418px;
+}
+header .container-content .wrapper .box-user ul.nav_top {
+    height: 100%;
+    display: flex;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+header .container-content .wrapper .box-user ul.nav_top li a.add-new.t {
+    float: left;
+}
+header .container-content .wrapper .box-user ul.nav_top li a.add-new {
+    padding: 2px 15px;
+    color: #FFF;
+    border-radius: 5px;
+}
+header .container-content .wrapper .box-user ul.nav_top li a {
+    display: block;
+    padding: 0 5px;
+    margin: 0 5px;
+    color: #333;
+    white-space: nowrap;
+    line-height: 30px;
+    text-decoration: none;
+}
+.btn.red {
+    background: #E74C3C;
+}
+.btn {
+    border-color: rgba(0,0,0,0.15) rgba(0,0,0,0.15) rgba(0,0,0,0.25);
+}
